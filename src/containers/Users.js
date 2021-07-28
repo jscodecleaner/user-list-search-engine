@@ -3,7 +3,7 @@ import axios from 'axios'
 import styles from './Users.module.css'
 import UserInfo from '../components/User/UserInfo'
 
-const User = () => {
+const Users = () => {
   const [users, setUsers] = useState({})
   const [searchUsers, setSearchUsers] = useState({})
   const [searchText, setSearchText] = useState('')
@@ -20,8 +20,8 @@ const User = () => {
     if (searchText) {
       tempUsers = users.filter((user) => {
         return (
-          user.name.toLowerCase().indexOf(searchText.toLowerCase()) != -1 ||
-          user.email.toLowerCase().indexOf(searchText.toLowerCase()) != -1
+          user.name.toLowerCase().indexOf(searchText.toLowerCase()) !== -1 ||
+          user.email.toLowerCase().indexOf(searchText.toLowerCase()) !== -1
         )
       })
       setSearchUsers(tempUsers)
@@ -64,4 +64,4 @@ const User = () => {
   )
 }
 
-export default User
+export default Users
