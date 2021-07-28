@@ -1,0 +1,21 @@
+.MainContent {
+  width: 400px;
+  margin: 100px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.TitleContent h2 {
+  text-align: center;
+}
+
+.SearchContent input {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.UserContent {
+  width: 380px;
+  margin: 20px auto;
+}

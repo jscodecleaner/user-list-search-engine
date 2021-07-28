@@ -1,0 +1,39 @@
+.UserInfoContent {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+}
+
+.UserInfoNum {
+  width: 30px;
+  color: grey;
+}
+
+.UserInfoName {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.UserInfoUserName {
+  color: rgb(0, 166, 255);
+}
+
+.UserDetailsContent {
+  margin-left: 30px;
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+.UserDetailsInfo {
+  display: flex;
+}
+
+.UserDetailsSubTitle {
+  font-weight: 700;
+  color: rgb(3, 137, 210);
+  margin-right: 10px;
+}
+
+.UserDetailsData {
+  padding-top: 15px;
+}
