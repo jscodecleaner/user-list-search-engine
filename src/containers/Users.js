@@ -28,7 +28,7 @@ const Users = () => {
     } else {
       setSearchUsers(users)
     }
-  }, [searchText])
+  }, [searchText, users])
 
   const showUsersInfo = (user, key) => {
     return <UserInfo user={user} userKey={key} key={key} />
